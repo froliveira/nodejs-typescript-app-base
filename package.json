@@ -13,7 +13,7 @@
     "url": "git+https://github.com/froliveira/nodejs-typescript-app-base.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Francisco Oliveira <froliveira@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/froliveira/nodejs-typescript-app-base/issues"
