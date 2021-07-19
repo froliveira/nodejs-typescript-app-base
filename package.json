@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-typescript-app-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/froliveira/nodejs-typescript-app-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/froliveira/nodejs-typescript-app-base/issues"
+  },
+  "homepage": "https://github.com/froliveira/nodejs-typescript-app-base#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
