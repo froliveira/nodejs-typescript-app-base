@@ -5,7 +5,8 @@
         "jest": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:@typescript-eslint/recommended",
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -16,11 +17,19 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "max-len": "off"
+        "max-len": "off",
+        "import/extensions": [
+          "error",
+          "ignorePackages",
+          {
+            "ts": "never"
+          }
+        ]
     },
     "settings": {
         "import/resolver": {
-            "typescript": {}
+            "typescript": {
+             }
         }
     }
 }

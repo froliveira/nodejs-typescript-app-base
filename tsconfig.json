@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {    
+  "compilerOptions": {
     "target": "ES2017",
     "module": "commonjs",
     "lib": ["es6"],
@@ -9,19 +9,23 @@
     "removeComments": true,
     "strict": true,
     "typeRoots": [
-      "./node_modules/@types",
-      "./src/@types"
+      "./node_modules/@types"
     ],
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    //"experimentalDecorators": true,
-    //"emitDecoratorMetadata": true,
-    "skipLibCheck": true,                           
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
       "@controllers/*": ["./src/controllers/*"],
       "@models/*": ["./src/models/*"]
     }
-  }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
